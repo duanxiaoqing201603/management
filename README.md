@@ -1,4 +1,5 @@
 # management
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -32,3 +33,6 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+后台管理
+>>>>>>> d08625a3b92f170742d587499598b03db8f3ab4c
