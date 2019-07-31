@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './views/Login.vue'
+import Tinymce from './views/Tinymce'
 
 Vue.use(Router)
 
@@ -12,6 +13,11 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path:'/tinymce',
+      name:'Tinymce',
+      component:Tinymce
     },
     {
       path: '/about',
